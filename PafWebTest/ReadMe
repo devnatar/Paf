@@ -1,0 +1,8 @@
+Note:
+1.This MavenProject is a simple Paf.com loginpage-test using Selenium webdriver,Junit and Maven. 
+2.It uses only chrome driver to run the tests.
+3.For configuration of selenium and junit versions use pom.xml
+4.Tests can be run from "PafWebTest\src\test\java\com\paf\test\PafLoginTest.java"
+5.For a positive testcase successful_login_with_credentials(), Correct username and password are needed.
+
+
