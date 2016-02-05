@@ -1,3 +1,5 @@
+Purpose of this project to show my coding style using Selenium and Java for the Interviews at Paf. It doesnt test extensively the paf.com
+
 Note:
 1.This MavenProject is a simple Paf.com loginpage-test using Selenium webdriver,Junit and Maven. 
 2.It uses only chrome driver to run the tests.
