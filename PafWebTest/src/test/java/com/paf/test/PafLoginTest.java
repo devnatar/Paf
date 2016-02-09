@@ -36,14 +36,14 @@ public class PafLoginTest {
     @Test
     public void should_not_login_only_with_username_credentials() {
         PafLoginPage loginPage = new PafHomePage().open().goToLoginPage();
-        loginPage.login("", "sds");
+        loginPage.login("Deviprasad", "");
         assertThat(loginPage.isUsernameMissingError()).isTrue();
     }
 
     @Test
     public void should_not_login_only_with_password_credentials() {
         PafLoginPage loginPage = new PafHomePage().open().goToLoginPage();
-        loginPage.login("devnatar", "");
+        loginPage.login("", "devnatar");
         assertThat(loginPage.isPasswordMissingError()).isTrue();
     }
 
